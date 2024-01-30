@@ -1,47 +1,61 @@
-body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.Head {
+    width:40vw;
+    height:85vh;
+    margin: 3vw auto;
+    padding: 20px;
+   background-color:#000000;
+   border-radius: 50px;
+   box-shadow: 10px 10px rgb(255, 255, 255);
 }
-form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 50px;
-}
-
-label {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 20px;
-    font-size: 18px;
-}
-
-input[type="text"],
-input[type="tel"] {
-    border: 2px solid #ccc;
-    border-radius: 5px;
+.signup {
+    background-color: #ffffff;
+    color: #006317;
+    border: 1px solid #c3e6cb;
     padding: 10px;
-    font-size: 18px;
-    width: 300px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 30px;
 }
-
-input[type="submit"] {
-    background-color: #4CAF50;
+.form {
+    margin-top:1vw;
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    color: #ffffff;
+}
+label {
+    margin-top:1vw;
+    margin-bottom: 5px;
     color: white;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+}
+.err {
+    color: #dc3545;
+    margin-top: 2px;
+}
+button{
+    width:10vw;
+    margin-top:3vw;
+    padding: 10px ;
+    margin-left:15vw;
+    background-color: #00c220e4;
+    box-shadow: 2px 2px 3px #000000;
+    color: #fff;
     border: none;
     border-radius: 5px;
-    padding: 10px 20px;
-    font-size: 18px;
-    cursor: pointer;
-    margin-top: 20px;
 }
-
-.registration-success {
-    margin-top: 20px;
-    margin-left: 40px;
-    color: green;
-    font-size: 24px;
-    font-weight: bold;
-    align-items: center;
+.btnname{
+    margin-left: -350px;
+    margin-top: -20px;
+    background-color: black;
+    color: white;
 }

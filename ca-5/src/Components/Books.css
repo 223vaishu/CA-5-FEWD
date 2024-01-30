@@ -1,0 +1,85 @@
+body{
+    background-color: rgb(255, 255, 236);
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1vw;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 255, 236);
+    width: 100%;
+    padding: 1vw 1vw;
+  }
+  
+  .Name {
+    font-size: 30px;
+    color: #4800ff;
+    margin-left:0vw;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  .input {
+    width: 30vw;
+    height: 3vh;
+    border: 1px solid #cccccc;
+    box-shadow: 5px 5px rgb(70, 70, 70);
+  }
+  
+  .Register {
+    height: 3vw;
+    margin-right:5vw;
+    padding: 0 20px;
+    background-color: #ff0000;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 30px;
+    border: none;
+  }
+  .contain {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 1vw;
+    margin-top: 2vw;
+  }
+  
+  .book {
+    padding: 0.5vw;
+    width: 20vw;
+    height: 30vw; 
+    border: 3px solid black;
+    background-color: black;
+    
+  }
+  
+  .book h2 {
+    font-size: 1.5vw;
+    color: #ffffff;
+    margin-bottom: 1vw;
+    margin-left: 20px;
+  }
+  
+  .book img {
+    width: 65%;
+    height: 65%; 
+    object-fit: cover;
+    border: 2px solid black; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 40px;
+  }
+  
+  .book p {
+    margin: 5px 0;
+    font-size: 1vw;
+    color: #ffffff;
+    margin-left: 80px;
+  }
